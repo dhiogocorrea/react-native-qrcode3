@@ -1,18 +1,21 @@
-# THIS PROJECT IS NO LONGER MAINTAINED
+# This project is forked from [cssivision/react-native-qrcode](https://github.com/cssivision/react-native-qrcode)
 
-# react-native-qrcode
+# react-native-qrcode2
 A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), not only support English.
 
 ## Installation
 ```sh
-npm install react-native-qrcode --save
+npm install react-native-qrcode2 --save
+
+# If you do n’t have react-native-webview installed, you need to install it
+npm install react-native-webview --save
 ```
 ## Usage
 ```jsx
 'use strict';
 
 import React, { Component } from 'react'
-import QRCode from 'react-native-qrcode';
+import QRCode from 'react-native-qrcode2';
 
 import {
     AppRegistry,
@@ -77,6 +80,10 @@ prop      | type                 | default value
 
 <img src='qrcode.png' height = '256' width = '256'/>
 
-# Licenses
+## changelog
+- 0.3.0
+  - Use react-native-webview instead react-native's WebView
 
-All source code is licensed under the [MIT License](https://github.com/cssivision/react-native-qrcode/blob/master/LICENSE).
+## Licenses
+
+All source code is licensed under the [MIT License](https://github.com/cssivision/react-native-qrcode2/blob/master/LICENSE).
