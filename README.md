@@ -1,6 +1,6 @@
 # This project is forked from [cssivision/react-native-qrcode](https://github.com/cssivision/react-native-qrcode)
 
-# react-native-qrcode2
+# react-native-qrcode3
 A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), not only support English.
 
 ## Installation
