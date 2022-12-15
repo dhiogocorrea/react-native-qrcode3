@@ -5,7 +5,7 @@ A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_co
 
 ## Installation
 ```sh
-npm install react-native-qrcode2 --save
+npm install react-native-qrcode3 --save
 
 # If you do n’t have react-native-webview installed, you need to install it
 npm install react-native-webview --save
